@@ -3,12 +3,16 @@
 /* link the web font used for the level 1 heading here */
 
 @font-face {
-  font-family:'Baskerville';
-  src: url ()
+  font-family: 'Baskerville';
+  src: url(../fonts/Baskerville.ttc);
 }
 
 /*////////// Global Styles //////////*/
-
+p{
+  color: #555;
+  font-size: 1em;
+  margin: 0 0 20px 0;
+}
 body {
 	background: #F3EBE9;
 	font-size: 100%;
@@ -22,4 +26,16 @@ body {
 	padding: 0 45px 20px;
 }
 
+.small {
+    font-size: 0.8em;
+}
+
+
 /* Write all remaining styles here */
+header a{
+    color: rgb(152,173,166);
+    text-decoration: none;
+}
+header a:hover {
+  color: rbg(111,127,122);
+}
